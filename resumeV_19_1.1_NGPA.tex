@@ -1,0 +1,19 @@
+\documentclass{article}
+\begin{document} 
+
+
+\begin{tabular}{|r|r|r|} %lll for left justified; ccc for central; rrr for right; can mix and math like rrc or lrcl
+% use | (back slash ^ line) for vertical column
+\hline %creates horizontal line
+Subject	& Age	& Gender	\\ %& fo new cell and \\ new line
+\hline\hline
+A		& 20		& male	\\
+B		&21		&female	\\
+C		& & \\
+& & \\				
+\hline
+\end{tabular}
+% Note that a nice way to refer to the table is to also include a \label{tab:data} inside the 'table' environment. Later in your text you can refer to the table the following way: "Please see Table \ref{tab:data} on page \pageref{taf:data}." If it is the 1st table on page 3 it will print "Please see Table 1 on page 3."
+
+
+\end{document}
